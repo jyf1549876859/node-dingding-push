@@ -30,7 +30,9 @@
 #### Demo: (Text类型)，功能：推送消息并且at指定人员（需知道对方钉钉绑定的手机号）
 
 ```
-import DingdingBot from './dd'
+// const DingdingBot = require('node-dingding-push').default
+
+import  DingdingBot from 'node-dingding-push'
 
 const curDate = new Date()
 const dd = new DingdingBot({
@@ -47,7 +49,9 @@ dd.run(2)
 #### Demo: (Link类型)，功能：推送消息(可点击跳转到详情链接)
 
 ```
-import DingdingBot from './dd'
+// const DingdingBot = require('node-dingding-push').default
+
+import  DingdingBot from 'node-dingding-push'
 
 const curDate = new Date()
 const dd = new DingdingBot({
@@ -67,7 +71,9 @@ dd.run(1)
 #### Demo: (MarkDown类型)，功能：推送MarkDown格式消息
 
 ```
-import DingdingBot from './dd'
+// const DingdingBot = require('node-dingding-push').default
+
+import  DingdingBot from 'node-dingding-push'
 
 const curDate = new Date()
 const dd = new DingdingBot({
